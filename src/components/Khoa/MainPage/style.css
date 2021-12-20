@@ -1,0 +1,29 @@
+.main-khoa {
+    flex:8;
+    background: #170f23;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+
+::-webkit-scrollbar {
+    width: 0.7rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background:#5d5765;
+  }
+
+/* musicbar */
+.musicbar {
+    position: fixed;
+    bottom: 0;
+    right: 0;left: 0;
+    height:10%;
+    background:#120c1c;
+    z-index: 1000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:2rem 4rem;
+}

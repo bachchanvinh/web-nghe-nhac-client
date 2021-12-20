@@ -1,0 +1,12 @@
+.main-khoa .swiper img {
+    width: 40rem;
+    height: 22.3rem;
+    object-fit: cover;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.main-khoa .swiper img:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 30px 8px;
+    border: 0.1rem solid #fff
+}

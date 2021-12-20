@@ -1,0 +1,67 @@
+.main-item-khoa {
+    display: flex;
+    color:white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 1rem 1rem 1rem 1.5rem;
+    font-size:2rem;
+}
+
+.main-item-khoa.active {
+    background-color: var(--primary-color);
+}
+
+.main-item-khoa:hover {
+    background-color: #40454d;
+}
+
+.main-item-khoa .details-info, .main-item-khoa .details-singer, 
+.main-item-khoa .details-time, .main-item-khoa .details-like {
+    flex:1;
+}
+
+.main-item-khoa .details-info {
+    text-align:left;
+    display:flex;
+}
+
+.main-item-khoa .details-info img {
+    object-fit: contain;
+    width: 8rem;
+    border-radius:0.6rem;
+    margin:0 2rem;
+}
+
+.main-item-khoa .details-info .details-name {
+    background: inherit;
+    color: inherit;
+    overflow-x:scroll;
+    text-align: left;
+}
+
+.main-item-khoa .details-info:hover .details-name {
+    color:var(--primary-color);
+    cursor: pointer;
+}
+
+.main-item-khoa .details-time {
+    cursor: auto;
+}
+
+.main-item-khoa .details-like:hover {
+    cursor: pointer;
+}
+
+.main-item-khoa .details-like:hover .details-like-icon-fill {
+    color:var(--primary-color);
+}
+
+.main-item-khoa .details-like:hover .details-like-icon-empty,
+.main-item-khoa .details-like .details-like-icon-fill {
+    display: none;
+}
+
+.main-item-khoa .details-like:hover .details-like-icon-fill {
+    display: block;
+}

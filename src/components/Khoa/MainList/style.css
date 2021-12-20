@@ -1,0 +1,66 @@
+.main-list-khoa {
+    display: flex;
+    margin-bottom: 10%;
+}
+
+.main-list-khoa .main-title {
+    display: flex;
+    color:#636370;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 1rem;
+    font-size:2rem;
+}
+
+.main-list-khoa .main-title .title-name, .main-list-khoa .main-title .title-singer, 
+.main-list-khoa .main-title .title-time, .main-list-khoa .main-title .title-like {
+    text-transform: uppercase;
+    flex:1;
+}
+
+/* playlist */
+.main-list-khoa .title-playlist {
+    display: flex;
+    color: #fff;
+}
+
+.main-list-khoa .title-playlist .img {
+    width: 20rem;
+    height: 20rem;
+    object-fit:cover;
+    margin: 0 2rem;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.main-list-khoa .title-playlist-wrap {
+    margin: 1rem 0 0;
+    text-align: left;
+}
+
+.main-list-khoa .title-playlist-wrap p {
+    margin: 0;
+}
+
+.main-list-khoa .title-playlist-wrap .name {
+    font-size: 5rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.main-list-khoa .title-playlist-wrap .singer {
+    font-size: 1.4rem;
+    opacity:0.5;
+    margin: 0.5rem 0 1rem;
+}
+
+.main-list-khoa .title-playlist-wrap .btn {
+    color: #fff;
+    padding:1rem 4rem;
+    font-size: 1.6rem;
+    background-color: #8080807d;
+}
+
+.main-list-khoa .title-playlist-wrap .btn:hover {
+    color: var(--primary-color);
+}

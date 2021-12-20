@@ -1,0 +1,57 @@
+.welcome-khoa {
+    font-family: Consolas,sans-serif;
+    background: #794141;
+    background: linear-gradient(
+110deg,#231b2e 50%,#170f23 0);
+    text-align: center;
+}
+
+.welcome-khoa .welcome-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding:50px
+}
+
+.welcome-khoa .welcome-row .welcome-row-item {
+    flex:1;
+    padding: 50px;
+    margin: 50px;
+}
+
+.welcome-khoa .welcome-row .welcome-row-img .head-phone-img {
+    transform: rotate(350deg);
+    object-fit: contain;
+    width: 60%;
+}
+
+.welcome-khoa .welcome-row .welcome-row-text {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    color:#DF678C;
+    font-size:30px
+}
+
+.welcome-khoa .welcome-row .welcome-row-text > p {
+    color: #fff
+}
+
+.welcome-khoa .welcome-row .welcome-row-text .btn {
+    font-family: Consolas,sans-serif;
+    letter-spacing: 2px;
+    border: none;
+    background-color: #282c34;
+    color: #DF678C;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 10px 0;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.welcome-khoa .welcome-row .welcome-row-text .btn:hover {
+    box-shadow: 0 0 10px;
+}

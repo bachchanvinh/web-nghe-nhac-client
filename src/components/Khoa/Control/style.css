@@ -1,0 +1,49 @@
+.c-player--control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    margin:0.3rem 0.5rem;
+    padding:1rem;
+}
+
+.c-player--control .skip-btn {
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+  }
+
+.c-player--control .skip-btn:hover {
+    color: white;
+    background-color: #272230;
+}
+
+.c-player--control .play-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 3rem;
+    padding: 1rem;
+    border-radius: 50%;
+    border: 0.1rem solid white;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all none;
+}
+
+.c-player--control .play-btn:hover {
+    color:var(--primary-color);
+    border: 0.1rem solid var(--primary-color);
+}

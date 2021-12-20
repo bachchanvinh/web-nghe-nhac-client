@@ -1,0 +1,51 @@
+.musicbar-currentsong-khoa {
+    display: flex;
+    align-items: center;
+    flex:1;
+}
+
+.musicbar-currentsong-khoa .musicbar-currentsong-khoa-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.musicbar-currentsong-khoa .musicbar-currentsong-khoa-wrap .img {
+    width: 6.5rem;
+    height: 6.5rem;
+    border-radius: 50%;
+    border: 0.2rem solid #D3D3D3;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.musicbar-currentsong-khoa .musicbar-currentsong-khoa-wrap .desc {
+    padding:2rem;
+    text-align: left;
+}
+
+.musicbar-currentsong-khoa .musicbar-currentsong-khoa-wrap .desc p {
+    margin:0
+}
+
+.musicbar-currentsong-khoa .desc .name {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.musicbar-currentsong-khoa .desc .singer {
+    font-size: 1.4rem;
+    opacity:0.5
+}
+
+.musicbar-currentsong-khoa-wrap img.rotate-ani {
+    animation: rotate 5s linear infinite;
+    color:red
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

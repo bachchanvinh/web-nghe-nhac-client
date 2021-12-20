@@ -1,0 +1,7 @@
+.home-khoa {
+    height:100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    background: #231b2e
+}

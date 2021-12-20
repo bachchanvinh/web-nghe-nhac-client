@@ -1,0 +1,75 @@
+.chat-general-screen {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display:flex;
+    flex-direction: column-reverse;
+    align-items: stretch;
+    height: 40rem;
+}
+
+.chat-general-screen .chat-general-group {
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
+    margin:0.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-general-screen .chat-general-group p {
+    margin: 0;
+    font-size:1.4rem;
+    padding:0.1rem;    
+    text-transform: none;
+}
+
+.chat-general-screen .chat-general-group .chat-name {
+    color:orange
+}
+
+.chat-general-form {
+    background: #242424;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+    text-align: left;
+    height:4rem;
+}
+
+.chat-general-form .chat-general-form-sign {
+    color: #fff;
+    padding:0.3rem 1rem;
+    width: 90%;
+    background:gray;
+    text-align: center;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    display:none;
+}
+
+.chat-general-form.please-sign:hover .chat-general-form-item {
+    display:none;
+}
+
+.chat-general-form.please-sign:hover .chat-general-form-sign {
+    display: block;
+}
+
+.chat-general-form .chat-general-form-item {
+    background: #242424;
+    display:block;
+    width: 100%;
+    padding:0.3rem;
+    margin: 0.1rem;
+    color: #fff;
+    text-transform: none;
+}
+
+.chat-general-form .chat-general-form-item:last-child {
+    border-top: 0.1rem solid rgba(255, 255, 255, 0.4);
+}
+
+.chat-general-group.my-message {
+    align-items:flex-end;
+  }
+  

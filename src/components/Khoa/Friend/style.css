@@ -1,0 +1,71 @@
+.friend-khoa {
+    flex:2;
+    background: #231b2e;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10rem;
+    justify-content:space-around;
+}
+
+.friend-khoa .friend-wrap {
+    margin: 2rem 0 0 0;
+}
+
+.friend-khoa .friend-heading {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 2rem;
+    padding:1rem;
+    font-size:1.5rem;
+}
+
+.friend-khoa .friend-heading .friend-heading-title {
+    font-size:2rem;
+}
+
+.friend-khoa .friend-heading .friend-heading-icon:hover {
+    cursor: pointer;
+    color:rgba(255,255,255,0.6)
+}
+
+.friend-khoa .friend-list .friend-list-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    margin:0.5rem;
+    position: relative;
+}
+
+.friend-khoa .friend-list .friend-list-item:hover {
+    background-color: #40454d;
+}
+
+.friend-khoa .friend-list .friend-list-item .friend-list-img {
+    width: 20%;
+    object-fit: contain;
+    border-radius:50%;
+    cursor: pointer;
+}
+
+.friend-khoa .friend-list .friend-list-item .friend-list-name {
+    color: #fff;
+    font-size: 1.8rem;
+    padding:0.5rem;
+    margin: 0 1rem;
+}
+
+.friend-khoa .friend-list .friend-list-item .friend-list-name:hover { 
+    cursor: pointer;
+    color:rgba(255,255,255,0.6)
+}
+
+/* chat */
+.friend-khoa .chat-general {
+    background-color: white;
+    margin: 1rem 1rem 5rem;
+    position: relative;
+    border: 0.3rem solid rgba(0, 0, 0, 0.16);
+}
